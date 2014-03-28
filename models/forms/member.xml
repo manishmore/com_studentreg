@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="certificate_number" type="text" size="40" class="inputbox"
+        
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_CERTIFICATE_NUMBER"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_CERTIFICATE_NUMBER" 
+        
+        
+        
+        filter="safehtml" /> 
+
+       <field name="course" type="text"
+                
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_COURSE"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_COURSE" 
+                
+                
+                 /> 
+
+       <field name="college" type="text"
+                
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_COLLEGE"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_COLLEGE" 
+                
+                
+                 /> 
+
+       <field name="date" type="calendar" class="inputbox"
+        
+        
+         default="0" 
+        
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_DATE"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_DATE" 
+        format="%Y-%m-%d %H:%M:%S"
+        filter="safehtml" /> 
+
+       <field name="grade" type="text"
+                
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_GRADE"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_GRADE" 
+                
+                
+                 /> 
+
+       <field name="image" type="media"
+                
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_IMAGE"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_IMAGE" 
+                
+                
+                
+            directory="/images/student" /> 
+
+       <field name="name" type="text"
+                
+            label="COM_STUDENTREG_FORM_LBL_MEMBER_NAME"
+            description="COM_STUDENTREG_FORM_DESC_MEMBER_NAME" 
+                
+                
+                
+            maxlength="255" />
+
+	</fieldset>
+
+</form>
